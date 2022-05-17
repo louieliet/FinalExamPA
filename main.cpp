@@ -6,8 +6,8 @@ int main(){
     Materia m2("PA1","ProgramacionAvanzada","Ferro");
     Materia m3("MAT","Matematicas","Quintero");
     Materia m4("PYS","PersonaySociedad","Claudia");
-
-    vector<Materia> materias{m1,m2,m3,m4};
+    Materia m5("QUI","Quimica","Enrique");
+    vector<Materia> materias{m1,m2,m3,m4,m5};
 
     bool running = true;
     int op;
